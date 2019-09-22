@@ -96,6 +96,7 @@ rosrun beginner_tutorials add_two_ints_client 6 6666
 
 
 # http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data
-
+rosbag info 2019-09-22-20-44-56.bag
+# output: start:       Sep 22 2019 20:44:56.34 (1569185096.34)
 
 ```
