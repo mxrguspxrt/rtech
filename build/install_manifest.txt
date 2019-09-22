@@ -4,3 +4,7 @@
 /home/dte/Desktop/rtech/install/setup.sh
 /home/dte/Desktop/rtech/install/setup.zsh
 /home/dte/Desktop/rtech/install/.rosinstall
+/home/dte/Desktop/rtech/install/lib/pkgconfig/beginner_tutorials.pc
+/home/dte/Desktop/rtech/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+/home/dte/Desktop/rtech/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+/home/dte/Desktop/rtech/install/share/beginner_tutorials/package.xml
