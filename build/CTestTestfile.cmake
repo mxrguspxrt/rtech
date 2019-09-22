@@ -5,4 +5,6 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("beginner_tutorials")
+subdirs("rqt_console")
+subdirs("rqt_py_common")
 subdirs("turtlesim")

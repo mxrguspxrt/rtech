@@ -369,6 +369,9 @@ message_generation_DIR:PATH=/usr/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/usr/share/message_runtime/cmake
 
+//The directory containing a CMake configuration file for qt_gui.
+qt_gui_DIR:PATH=qt_gui_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/usr/share/rosconsole/cmake
 
@@ -395,6 +398,36 @@ rospy_DIR:PATH=/usr/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/usr/share/rostime/cmake
+
+//Value Computed by CMake
+rqt_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/rqt/rqt
+
+//Value Computed by CMake
+rqt_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/rqt/rqt
+
+//Value Computed by CMake
+rqt_console_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/rqt_console
+
+//Value Computed by CMake
+rqt_console_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/rqt_console
+
+//Value Computed by CMake
+rqt_gui_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/rqt_gui
+
+//Value Computed by CMake
+rqt_gui_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/rqt_gui
+
+//Value Computed by CMake
+rqt_gui_cpp_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/rqt_gui_cpp
+
+//Value Computed by CMake
+rqt_gui_cpp_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/rqt_gui_cpp
+
+//Value Computed by CMake
+rqt_py_common_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/rqt_py_common
+
+//Value Computed by CMake
+rqt_py_common_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/rqt_py_common
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/usr/share/std_msgs/cmake
@@ -551,7 +584,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

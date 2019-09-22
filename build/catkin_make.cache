@@ -1,2 +1,2 @@
-beginner_tutorials:turtlesim
+beginner_tutorials:rqt_console:rqt_py_common:turtlesim
 -DCATKIN_DEVEL_PREFIX=/home/dte/Desktop/rtech/devel -DCMAKE_INSTALL_PREFIX=/home/dte/Desktop/rtech/install -G Unix Makefiles

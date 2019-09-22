@@ -1,0 +1,8 @@
+prefix=/home/dte/Desktop/rtech/devel
+
+Name: rqt_console
+Description: Description of rqt_console
+Version: 0.4.8
+Cflags: 
+Libs: -L/home/dte/Desktop/rtech/devel/lib 
+Requires: 

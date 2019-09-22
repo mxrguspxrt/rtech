@@ -51,6 +51,16 @@ rosnode info /rosout
 # 1. https://github.com/ros/ros_tutorials - use correct branch +
 # 1. Add it to your src + catkin_make + bash devel/setup.bash
 rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'
 
+# http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams
+rosservice type /clear
+rosservice type /spawn | rossrv show
+rosservice call /spawn 2 2 0.2 ""
+
+# http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
+rosmsg show beginner_tutorials/Num
+# outputs: int64 num
 
 ```

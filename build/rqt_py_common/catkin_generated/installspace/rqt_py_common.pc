@@ -1,0 +1,8 @@
+prefix=/home/dte/Desktop/rtech/install
+
+Name: rqt_py_common
+Description: Description of rqt_py_common
+Version: 0.5.0
+Cflags: -I/home/dte/Desktop/rtech/install/include
+Libs: -L/home/dte/Desktop/rtech/install/lib 
+Requires: 

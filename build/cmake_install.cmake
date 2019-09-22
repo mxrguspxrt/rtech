@@ -122,6 +122,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dte/Desktop/rtech/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/rqt_console/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/rqt_py_common/cmake_install.cmake")
   include("/home/dte/Desktop/rtech/build/turtlesim/cmake_install.cmake")
 
 endif()
