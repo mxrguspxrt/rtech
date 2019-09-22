@@ -1,0 +1,6 @@
+/home/dte/Desktop/rtech/install/_setup_util.py
+/home/dte/Desktop/rtech/install/env.sh
+/home/dte/Desktop/rtech/install/setup.bash
+/home/dte/Desktop/rtech/install/setup.sh
+/home/dte/Desktop/rtech/install/setup.zsh
+/home/dte/Desktop/rtech/install/.rosinstall
