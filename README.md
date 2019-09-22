@@ -7,6 +7,8 @@ buster/sid
 sudo apt-get install ros-desktop-full
 sudo apt-get install ros-desktop-full-dev 
 
+
+
 # http://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem
 rospack find roscpp
 roscd roscpp
@@ -16,6 +18,8 @@ roscd roscpp/cmake
 pwd
 roscd log
 rosls roscpp_tutorials
+
+
 
 # http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 # http://wiki.ros.org/catkin/Tutorials/create_a_workspace
@@ -29,6 +33,8 @@ cd beginner_tutorials
 cat package.xml
 rospack depends1 rospy
 
+
+
 # http://wiki.ros.org/ROS/Tutorials/BuildingPackages
  bash devel/setup.bash 
  catkin_make
@@ -38,6 +44,8 @@ ls src
 ls
 # output: build  devel  install  README.md  src
 
+
+
 # http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes
 roscore
 # output: started core service [/rosout]
@@ -45,6 +53,8 @@ rsnode list
 # output: rosnode list
 rosnode info /rosout
 # output: Pid: 25402
+
+
 
 # http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics
 # 1. Because TurtleSim is missing, get it manually and install from: 
@@ -54,14 +64,20 @@ rosrun turtlesim turtlesim_node
 rosrun turtlesim turtle_teleop_key
 rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'
 
+
+
 # http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams
 rosservice type /clear
 rosservice type /spawn | rossrv show
 rosservice call /spawn 2 2 0.2 ""
 
+
+
 # http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
 rosmsg show beginner_tutorials/Num
 # outputs: int64 num
+
+
 
 # http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
 source devel/setup.bash
@@ -69,6 +85,17 @@ roscore
 rosrun beginner_tutorials listener
 # outputs: [ INFO] [1569183877.283433931]: I heard: [hello world 181]
 
+
+
+# http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29
+rosrun beginner_tutorials add_two_ints_server
+# output: [ INFO] [1569184427.559081738]: Ready to add two ints.
+
+rosrun beginner_tutorials add_two_ints_client 6 6666
+# output: [ INFO] [1569184474.145327913]: Sum: 6672
+
+
+# http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data
 
 
 ```
