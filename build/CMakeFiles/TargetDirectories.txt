@@ -1,0 +1,12 @@
+/home/dte/Desktop/rtech/build/CMakeFiles/doxygen.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/rebuild_cache.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/clean_test_results.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/run_tests.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/download_extra_data.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/tests.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/edit_cache.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/test.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/install/strip.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/list_install_components.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/install.dir
+/home/dte/Desktop/rtech/build/CMakeFiles/install/local.dir
