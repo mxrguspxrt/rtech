@@ -30,5 +30,15 @@ cat package.xml
 rospack depends1 rospy
 
 # http://wiki.ros.org/ROS/Tutorials/BuildingPackages
+ bash devel/setup.bash 
+ catkin_make
+ catkin_make install 
+ls src
+# output: beginner_tutorials  CMakeLists.txt
+ls
+#output: build  devel  install  README.md  src
+
+# http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes
+
 
 ```
