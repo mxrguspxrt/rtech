@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dte/Desktop/rtech/src/beginner_tutorials/src/talker.cpp
+ros/ros.h
+/home/dte/Desktop/rtech/src/beginner_tutorials/src/ros/ros.h
+std_msgs/String.h
+/home/dte/Desktop/rtech/src/beginner_tutorials/src/std_msgs/String.h
+sstream
+-
+

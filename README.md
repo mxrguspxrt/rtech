@@ -63,4 +63,12 @@ rosservice call /spawn 2 2 0.2 ""
 rosmsg show beginner_tutorials/Num
 # outputs: int64 num
 
+# http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
+source devel/setup.bash
+roscore
+rosrun beginner_tutorials listener
+# outputs: [ INFO] [1569183877.283433931]: I heard: [hello world 181]
+
+
+
 ```
