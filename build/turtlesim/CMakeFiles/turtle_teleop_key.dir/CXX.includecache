@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dte/Desktop/rtech/src/turtlesim/tutorials/teleop_turtle_key.cpp
+ros/ros.h
+-
+geometry_msgs/Twist.h
+-
+signal.h
+-
+termios.h
+-
+stdio.h
+-
+

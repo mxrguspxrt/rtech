@@ -1,0 +1,2 @@
+set(turtlesim_MESSAGE_FILES "/home/dte/Desktop/rtech/src/turtlesim/msg/Color.msg;/home/dte/Desktop/rtech/src/turtlesim/msg/Pose.msg")
+set(turtlesim_SERVICE_FILES "/home/dte/Desktop/rtech/src/turtlesim/srv/Kill.srv;/home/dte/Desktop/rtech/src/turtlesim/srv/SetPen.srv;/home/dte/Desktop/rtech/src/turtlesim/srv/Spawn.srv;/home/dte/Desktop/rtech/src/turtlesim/srv/TeleportAbsolute.srv;/home/dte/Desktop/rtech/src/turtlesim/srv/TeleportRelative.srv")

@@ -1,0 +1,11 @@
+-I/home/dte/Desktop/rtech/devel/include
+-I/home/dte/Desktop/rtech/src/turtlesim/include
+-I/usr/include
+-I/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="turtlesim"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/dte/Desktop/rtech/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/home/dte/Desktop/rtech/src/turtlesim/include/turtlesim/turtle_frame.h

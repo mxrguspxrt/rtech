@@ -36,9 +36,21 @@ rospack depends1 rospy
 ls src
 # output: beginner_tutorials  CMakeLists.txt
 ls
-#output: build  devel  install  README.md  src
+# output: build  devel  install  README.md  src
 
 # http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes
+roscore
+# output: started core service [/rosout]
+rsnode list
+# output: rosnode list
+rosnode info /rosout
+# output: Pid: 25402
+
+# http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics
+# 1. Because TurtleSim is missing, get it manually and install from: 
+# 1. https://github.com/ros/ros_tutorials - use correct branch +
+# 1. Add it to your src + catkin_make + bash devel/setup.bash
+rosrun turtlesim turtlesim_node
 
 
 ```
