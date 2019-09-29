@@ -273,6 +273,9 @@ EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
 //Empy script
 EMPY_SCRIPT:STRING=/usr/bin/empy
 
+//The directory containing a CMake configuration file for Eigen3.
+Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
+
 //The directory containing a CMake configuration file for GMock.
 GMock_DIR:PATH=GMock_DIR-NOTFOUND
 
@@ -333,6 +336,15 @@ UBUNTU:BOOL=TRUE
 //LSB Distrib - codename tag
 UBUNTU_DISCO:BOOL=TRUE
 
+//Path to a file.
+_file_name:FILEPATH=/home/dte/Desktop/rtech/src/joint_state_publisher/joint_state_publisher/test/test_64_joint_robot.launch
+
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/usr/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/usr/share/actionlib_msgs/cmake
+
 //Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/beginner_tutorials
 
@@ -360,8 +372,32 @@ genpy_DIR:PATH=/usr/share/genpy/cmake
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/usr/share/geometry_msgs/cmake
 
+//Dependencies for the target
+joint_state_listener_LIB_DEPENDS:STATIC=general;robot_state_publisher_solver;general;orocos-kdl;
+
+//Value Computed by CMake
+joint_state_publisher_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/joint_state_publisher/joint_state_publisher
+
+//The directory containing a CMake configuration file for joint_state_publisher.
+joint_state_publisher_DIR:PATH=/home/dte/Desktop/rtech/devel/share/joint_state_publisher/cmake
+
+//Value Computed by CMake
+joint_state_publisher_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/joint_state_publisher/joint_state_publisher
+
+//The directory containing a CMake configuration file for kdl_parser.
+kdl_parser_DIR:PATH=/usr/share/kdl_parser/cmake
+
 //Path to a library.
 lib:FILEPATH=/usr/lib/x86_64-linux-gnu/librospack.so
+
+//Value Computed by CMake
+media_export_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/media_export
+
+//Value Computed by CMake
+media_export_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/media_export
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/usr/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/usr/share/message_generation/cmake
@@ -369,11 +405,32 @@ message_generation_DIR:PATH=/usr/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/usr/share/message_runtime/cmake
 
+//Value Computed by CMake
+my_r2d2_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/my_r2d2
+
+//Value Computed by CMake
+my_r2d2_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/my_r2d2
+
+//The directory containing a CMake configuration file for orocos_kdl.
+orocos_kdl_DIR:PATH=/usr/share/orocos_kdl/cmake
+
 //The directory containing a CMake configuration file for qt_gui.
 qt_gui_DIR:PATH=qt_gui_DIR-NOTFOUND
 
+//Value Computed by CMake
+robot_state_publisher_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/robot_state_publisher
+
+//Value Computed by CMake
+robot_state_publisher_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/robot_state_publisher
+
+//Dependencies for the target
+robot_state_publisher_solver_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libtf.so;general;/usr/lib/x86_64-linux-gnu/libtf2_ros.so;general;/usr/lib/x86_64-linux-gnu/libactionlib.so;general;/usr/lib/x86_64-linux-gnu/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libtf2.so;general;/usr/lib/x86_64-linux-gnu/libkdl_parser.so;general;/usr/lib/liborocos-kdl.so;general;/usr/lib/x86_64-linux-gnu/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/librosconsole.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_log4cxx.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/libxmlrpcpp.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;orocos-kdl;
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/usr/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/usr/share/rosconsole_bridge/cmake
 
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/roscpp
@@ -387,14 +444,29 @@ roscpp_traits_DIR:PATH=/usr/share/roscpp_traits/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/usr/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/usr/share/roslaunch/cmake
+
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/usr/share/roslib/cmake
+
+//Value Computed by CMake
+roslint_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/roslint
+
+//The directory containing a CMake configuration file for roslint.
+roslint_DIR:PATH=/home/dte/Desktop/rtech/devel/share/roslint/cmake
+
+//Value Computed by CMake
+roslint_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/roslint
 
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/usr/share/rospack/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/usr/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/usr/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/usr/share/rostime/cmake
@@ -429,17 +501,53 @@ rqt_py_common_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/rqt_py_common
 //Value Computed by CMake
 rqt_py_common_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/rqt_py_common
 
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/usr/share/sensor_msgs/cmake
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/usr/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/usr/share/std_srvs/cmake
 
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tf2
+
+//The directory containing a CMake configuration file for tf2_kdl.
+tf2_kdl_DIR:PATH=/usr/share/tf2_kdl/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/usr/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/usr/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/usr/share/tf/cmake
+
 //Value Computed by CMake
 turtlesim_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/turtlesim
 
 //Value Computed by CMake
 turtlesim_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/turtlesim
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/usr/share/urdf/cmake
+
+//Value Computed by CMake
+urdf_tutorial_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/urdf_tutorial
+
+//Value Computed by CMake
+urdf_tutorial_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/urdf_tutorial
+
+//The directory containing a CMake configuration file for urdfdom_headers.
+urdfdom_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/urdfdom_headers/cmake
+
+//Value Computed by CMake
+xacro_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/xacro
+
+//Value Computed by CMake
+xacro_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/xacro
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/usr/share/xmlrpcpp/cmake
@@ -584,7 +692,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -625,6 +733,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Test COMPILER_SUPPORTS_CXX11
+COMPILER_SUPPORTS_CXX11:INTERNAL=1
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.16()]
 //Details about finding Threads

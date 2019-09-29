@@ -168,19 +168,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-turtlesim/CMakeFiles/mimic.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/mimic.dir/rule
-.PHONY : turtlesim/CMakeFiles/mimic.dir/rule
+turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule
+.PHONY : turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule
 
 # Convenience name for target.
-mimic: turtlesim/CMakeFiles/mimic.dir/rule
+_turtlesim_generate_messages_check_deps_Pose: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule
 
-.PHONY : mimic
+.PHONY : _turtlesim_generate_messages_check_deps_Pose
 
 # fast build rule for target.
-mimic/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/mimic.dir/build.make turtlesim/CMakeFiles/mimic.dir/build
-.PHONY : mimic/fast
+_turtlesim_generate_messages_check_deps_Pose/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/build
+.PHONY : _turtlesim_generate_messages_check_deps_Pose/fast
+
+# Convenience name for target.
+turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule
+.PHONY : turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule
+
+# Convenience name for target.
+_turtlesim_generate_messages_check_deps_Kill: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule
+
+.PHONY : _turtlesim_generate_messages_check_deps_Kill
+
+# fast build rule for target.
+_turtlesim_generate_messages_check_deps_Kill/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/build
+.PHONY : _turtlesim_generate_messages_check_deps_Kill/fast
+
+# Convenience name for target.
+turtlesim/CMakeFiles/draw_square.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/draw_square.dir/rule
+.PHONY : turtlesim/CMakeFiles/draw_square.dir/rule
+
+# Convenience name for target.
+draw_square: turtlesim/CMakeFiles/draw_square.dir/rule
+
+.PHONY : draw_square
+
+# fast build rule for target.
+draw_square/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/draw_square.dir/build.make turtlesim/CMakeFiles/draw_square.dir/build
+.PHONY : draw_square/fast
 
 # Convenience name for target.
 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Spawn.dir/rule:
@@ -213,124 +243,19 @@ turtlesim_genlisp/fast:
 .PHONY : turtlesim_genlisp/fast
 
 # Convenience name for target.
-turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule
-.PHONY : turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule
+turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-_turtlesim_generate_messages_check_deps_Kill: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/rule
+std_srvs_generate_messages_lisp: turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
-.PHONY : _turtlesim_generate_messages_check_deps_Kill
+.PHONY : std_srvs_generate_messages_lisp
 
 # fast build rule for target.
-_turtlesim_generate_messages_check_deps_Kill/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/build
-.PHONY : _turtlesim_generate_messages_check_deps_Kill/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : turtlesim/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: turtlesim/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make turtlesim/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule
-.PHONY : turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule
-
-# Convenience name for target.
-_turtlesim_generate_messages_check_deps_Pose: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/rule
-
-.PHONY : _turtlesim_generate_messages_check_deps_Pose
-
-# fast build rule for target.
-_turtlesim_generate_messages_check_deps_Pose/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Pose.dir/build
-.PHONY : _turtlesim_generate_messages_check_deps_Pose/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-.PHONY : turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_py: turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-
-.PHONY : std_srvs_generate_messages_py
-
-# fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/build.make turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/draw_square.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/draw_square.dir/rule
-.PHONY : turtlesim/CMakeFiles/draw_square.dir/rule
-
-# Convenience name for target.
-draw_square: turtlesim/CMakeFiles/draw_square.dir/rule
-
-.PHONY : draw_square
-
-# fast build rule for target.
-draw_square/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/draw_square.dir/build.make turtlesim/CMakeFiles/draw_square.dir/build
-.PHONY : draw_square/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : turtlesim/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: turtlesim/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make turtlesim/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/turtle_teleop_key.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/turtle_teleop_key.dir/rule
-.PHONY : turtlesim/CMakeFiles/turtle_teleop_key.dir/rule
-
-# Convenience name for target.
-turtle_teleop_key: turtlesim/CMakeFiles/turtle_teleop_key.dir/rule
-
-.PHONY : turtle_teleop_key
-
-# fast build rule for target.
-turtle_teleop_key/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/turtle_teleop_key.dir/build.make turtlesim/CMakeFiles/turtle_teleop_key.dir/build
-.PHONY : turtle_teleop_key/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : turtlesim/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: turtlesim/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make turtlesim/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
+std_srvs_generate_messages_lisp/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlesim/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
@@ -363,19 +288,19 @@ turtlesim_gencpp/fast:
 .PHONY : turtlesim_gencpp/fast
 
 # Convenience name for target.
-turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-.PHONY : turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+.PHONY : turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_srvs_generate_messages_lisp: turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+turtlesim_generate_messages_py: turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
 
-.PHONY : std_srvs_generate_messages_lisp
+.PHONY : turtlesim_generate_messages_py
 
 # fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
+turtlesim_generate_messages_py/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build.make turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build
+.PHONY : turtlesim_generate_messages_py/fast
 
 # Convenience name for target.
 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_SetPen.dir/rule:
@@ -393,19 +318,34 @@ _turtlesim_generate_messages_check_deps_SetPen/fast:
 .PHONY : _turtlesim_generate_messages_check_deps_SetPen/fast
 
 # Convenience name for target.
-turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
-.PHONY : turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-turtlesim_generate_messages_py: turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
+std_srvs_generate_messages_py: turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
-.PHONY : turtlesim_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
 
 # fast build rule for target.
-turtlesim_generate_messages_py/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build.make turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build
-.PHONY : turtlesim_generate_messages_py/fast
+std_srvs_generate_messages_py/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/build.make turtlesim/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+# Convenience name for target.
+turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule
+.PHONY : turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule
+
+# Convenience name for target.
+_turtlesim_generate_messages_check_deps_TeleportAbsolute: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule
+
+.PHONY : _turtlesim_generate_messages_check_deps_TeleportAbsolute
+
+# fast build rule for target.
+_turtlesim_generate_messages_check_deps_TeleportAbsolute/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/build
+.PHONY : _turtlesim_generate_messages_check_deps_TeleportAbsolute/fast
 
 # Convenience name for target.
 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Color.dir/rule:
@@ -436,21 +376,6 @@ _turtlesim_generate_messages_check_deps_TeleportRelative: turtlesim/CMakeFiles/_
 _turtlesim_generate_messages_check_deps_TeleportRelative/fast:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportRelative.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportRelative.dir/build
 .PHONY : _turtlesim_generate_messages_check_deps_TeleportRelative/fast
-
-# Convenience name for target.
-turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule
-.PHONY : turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule
-
-# Convenience name for target.
-_turtlesim_generate_messages_check_deps_TeleportAbsolute: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/rule
-
-.PHONY : _turtlesim_generate_messages_check_deps_TeleportAbsolute
-
-# fast build rule for target.
-_turtlesim_generate_messages_check_deps_TeleportAbsolute/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/build.make turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportAbsolute.dir/build
-.PHONY : _turtlesim_generate_messages_check_deps_TeleportAbsolute/fast
 
 # Convenience name for target.
 turtlesim/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule:
@@ -526,6 +451,36 @@ turtlesim_node: turtlesim/CMakeFiles/turtlesim_node.dir/rule
 turtlesim_node/fast:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/turtlesim_node.dir/build.make turtlesim/CMakeFiles/turtlesim_node.dir/build
 .PHONY : turtlesim_node/fast
+
+# Convenience name for target.
+turtlesim/CMakeFiles/turtle_teleop_key.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/turtle_teleop_key.dir/rule
+.PHONY : turtlesim/CMakeFiles/turtle_teleop_key.dir/rule
+
+# Convenience name for target.
+turtle_teleop_key: turtlesim/CMakeFiles/turtle_teleop_key.dir/rule
+
+.PHONY : turtle_teleop_key
+
+# fast build rule for target.
+turtle_teleop_key/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/turtle_teleop_key.dir/build.make turtlesim/CMakeFiles/turtle_teleop_key.dir/build
+.PHONY : turtle_teleop_key/fast
+
+# Convenience name for target.
+turtlesim/CMakeFiles/mimic.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 turtlesim/CMakeFiles/mimic.dir/rule
+.PHONY : turtlesim/CMakeFiles/mimic.dir/rule
+
+# Convenience name for target.
+mimic: turtlesim/CMakeFiles/mimic.dir/rule
+
+.PHONY : mimic
+
+# fast build rule for target.
+mimic/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f turtlesim/CMakeFiles/mimic.dir/build.make turtlesim/CMakeFiles/mimic.dir/build
+.PHONY : mimic/fast
 
 include/turtlesim/moc_turtle_frame.o: include/turtlesim/moc_turtle_frame.cpp.o
 
@@ -725,26 +680,21 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... mimic"
+	@echo "... _turtlesim_generate_messages_check_deps_Pose"
+	@echo "... _turtlesim_generate_messages_check_deps_Kill"
+	@echo "... draw_square"
 	@echo "... _turtlesim_generate_messages_check_deps_Spawn"
 	@echo "... turtlesim_genlisp"
-	@echo "... _turtlesim_generate_messages_check_deps_Kill"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... _turtlesim_generate_messages_check_deps_Pose"
-	@echo "... std_srvs_generate_messages_py"
-	@echo "... draw_square"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... turtle_teleop_key"
-	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... turtlesim_gencpp"
-	@echo "... std_srvs_generate_messages_lisp"
-	@echo "... _turtlesim_generate_messages_check_deps_SetPen"
 	@echo "... turtlesim_generate_messages_py"
-	@echo "... test"
+	@echo "... _turtlesim_generate_messages_check_deps_SetPen"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... _turtlesim_generate_messages_check_deps_TeleportAbsolute"
 	@echo "... _turtlesim_generate_messages_check_deps_Color"
 	@echo "... _turtlesim_generate_messages_check_deps_TeleportRelative"
-	@echo "... _turtlesim_generate_messages_check_deps_TeleportAbsolute"
+	@echo "... test"
 	@echo "... install/local"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages"
@@ -753,6 +703,8 @@ help:
 	@echo "... turtlesim_genpy"
 	@echo "... edit_cache"
 	@echo "... turtlesim_node"
+	@echo "... turtle_teleop_key"
+	@echo "... mimic"
 	@echo "... include/turtlesim/moc_turtle_frame.o"
 	@echo "... include/turtlesim/moc_turtle_frame.i"
 	@echo "... include/turtlesim/moc_turtle_frame.s"

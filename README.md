@@ -1,4 +1,4 @@
-# Installation on latest Ubuntu
+# 1
 
 ```
 cat /etc/*version*
@@ -101,5 +101,22 @@ rosbag info 2019-09-22-20-44-56.bag
 rosbag play 2019-09-22-20-44-56.bag
 
 # http://wiki.ros.org/ROS/Tutorials/Getting%20started%20with%20roswtf
+
+```
+
+
+# 2
+
+```
+# show example robot from 
+# http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch
+sudo apt-get install librospack-dev librospack0d
+sudo apt-get install joint-state-publisher
+catkin_create_pkg my_r2d2 joint_state_publisher
+source devel/setup.bash
+catkin_make
+roslaunch urdf_tutorial display.launch model:='$(find urdf_tutorial)/urdf/01-myfirst.urdf'
+
+
 
 ```

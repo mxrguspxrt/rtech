@@ -122,9 +122,16 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dte/Desktop/rtech/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/joint_state_publisher/joint_state_publisher/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/media_export/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/my_r2d2/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/robot_state_publisher/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/roslint/cmake_install.cmake")
   include("/home/dte/Desktop/rtech/build/rqt_console/cmake_install.cmake")
   include("/home/dte/Desktop/rtech/build/rqt_py_common/cmake_install.cmake")
   include("/home/dte/Desktop/rtech/build/turtlesim/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/urdf_tutorial/cmake_install.cmake")
+  include("/home/dte/Desktop/rtech/build/xacro/cmake_install.cmake")
 
 endif()
 
