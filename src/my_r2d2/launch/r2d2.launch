@@ -1,8 +1,8 @@
 <launch>
 
-  <arg name="model" default="$(find my_r2d2)/urdf/r2d2.urdf"/>
+  <arg name="model" default="$(find my_r2d2)/urdf/r2d2.urdf.xacro"/>
   <arg name="gui" default="true" />
-  <arg name="rvizconfig" default="$(find my_r2d2)/rviz/urdf.rviz" />
+  <arg name="rvizconfig" default="$(find my_r2d2)/config/r2d2.rviz" />
 
   <param name="robot_description" command="$(find xacro)/scripts/xacro --inorder $(arg model)" />
   <param name="use_gui" value="$(arg gui)"/>
