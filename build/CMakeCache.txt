@@ -337,13 +337,16 @@ UBUNTU:BOOL=TRUE
 UBUNTU_DISCO:BOOL=TRUE
 
 //Path to a file.
-_file_name:FILEPATH=/home/dte/Desktop/rtech/src/joint_state_publisher/joint_state_publisher/test/test_64_joint_robot.launch
+_file_name:FILEPATH=/home/dte/Desktop/rtech/src/tf/test/test_broadcaster.launch
 
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/usr/share/actionlib/cmake
 
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/usr/share/actionlib_msgs/cmake
+
+//The directory containing a CMake configuration file for angles.
+angles_DIR:PATH=/usr/share/angles/cmake
 
 //Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/beginner_tutorials
@@ -356,6 +359,15 @@ catkin_DIR:PATH=/usr/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/usr/share/cpp_common/cmake
+
+//Value Computed by CMake
+eigen_conversions_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/eigen_conversions
+
+//Dependencies for the target
+eigen_conversions_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;orocos-kdl;
+
+//Value Computed by CMake
+eigen_conversions_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/eigen_conversions
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/usr/share/gencpp/cmake
@@ -384,6 +396,18 @@ joint_state_publisher_DIR:PATH=/home/dte/Desktop/rtech/devel/share/joint_state_p
 //Value Computed by CMake
 joint_state_publisher_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/joint_state_publisher/joint_state_publisher
 
+//Value Computed by CMake
+kdl_conversions_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/kdl_conversions
+
+//The directory containing a CMake configuration file for kdl_conversions.
+kdl_conversions_DIR:PATH=/home/dte/Desktop/rtech/devel/share/kdl_conversions/cmake
+
+//Dependencies for the target
+kdl_conversions_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;orocos-kdl;
+
+//Value Computed by CMake
+kdl_conversions_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/kdl_conversions
+
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/usr/share/kdl_parser/cmake
 
@@ -411,11 +435,20 @@ my_r2d2_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/my_r2d2
 //Value Computed by CMake
 my_r2d2_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/my_r2d2
 
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/usr/share/nav_msgs/cmake
+
 //The directory containing a CMake configuration file for orocos_kdl.
 orocos_kdl_DIR:PATH=/usr/share/orocos_kdl/cmake
 
 //The directory containing a CMake configuration file for qt_gui.
 qt_gui_DIR:PATH=qt_gui_DIR-NOTFOUND
+
+//Value Computed by CMake
+r2d2_navigator_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/r2d2_navigator
+
+//Value Computed by CMake
+r2d2_navigator_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/r2d2_navigator
 
 //Value Computed by CMake
 robot_state_publisher_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/robot_state_publisher
@@ -424,7 +457,7 @@ robot_state_publisher_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/robot_stat
 robot_state_publisher_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/robot_state_publisher
 
 //Dependencies for the target
-robot_state_publisher_solver_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libtf.so;general;/usr/lib/x86_64-linux-gnu/libtf2_ros.so;general;/usr/lib/x86_64-linux-gnu/libactionlib.so;general;/usr/lib/x86_64-linux-gnu/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libtf2.so;general;/usr/lib/x86_64-linux-gnu/libkdl_parser.so;general;/usr/lib/liborocos-kdl.so;general;/usr/lib/x86_64-linux-gnu/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/librosconsole.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_log4cxx.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/libxmlrpcpp.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;orocos-kdl;
+robot_state_publisher_solver_LIB_DEPENDS:STATIC=general;tf;general;/usr/lib/x86_64-linux-gnu/libtf2_ros.so;general;/usr/lib/x86_64-linux-gnu/libactionlib.so;general;/usr/lib/x86_64-linux-gnu/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libtf2.so;general;/usr/lib/x86_64-linux-gnu/libkdl_parser.so;general;/usr/lib/liborocos-kdl.so;general;/usr/lib/x86_64-linux-gnu/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/librosconsole.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_log4cxx.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/libxmlrpcpp.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;orocos-kdl;
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/usr/share/rosconsole/cmake
@@ -522,8 +555,26 @@ tf2_msgs_DIR:PATH=/usr/share/tf2_msgs/cmake
 //The directory containing a CMake configuration file for tf2_ros.
 tf2_ros_DIR:PATH=/usr/share/tf2_ros/cmake
 
+//Value Computed by CMake
+tf_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/tf
+
 //The directory containing a CMake configuration file for tf.
-tf_DIR:PATH=/usr/share/tf/cmake
+tf_DIR:PATH=/home/dte/Desktop/rtech/devel/share/tf/cmake
+
+//Dependencies for the target
+tf_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libtf2_ros.so;general;/usr/lib/x86_64-linux-gnu/libactionlib.so;general;/usr/lib/x86_64-linux-gnu/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/librosconsole.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_log4cxx.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libxmlrpcpp.so;general;/usr/lib/x86_64-linux-gnu/libtf2.so;general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;
+
+//Value Computed by CMake
+tf_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/tf
+
+//Value Computed by CMake
+tf_conversions_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/tf_conversions
+
+//Dependencies for the target
+tf_conversions_LIB_DEPENDS:STATIC=general;kdl_conversions;general;/usr/lib/liborocos-kdl.so;general;tf;general;/usr/lib/x86_64-linux-gnu/libtf2_ros.so;general;/usr/lib/x86_64-linux-gnu/libactionlib.so;general;/usr/lib/x86_64-linux-gnu/libmessage_filters.so;general;/usr/lib/x86_64-linux-gnu/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libxmlrpcpp.so;general;/usr/lib/x86_64-linux-gnu/libtf2.so;general;/usr/lib/x86_64-linux-gnu/libroscpp_serialization.so;general;/usr/lib/x86_64-linux-gnu/librosconsole.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_log4cxx.so;general;/usr/lib/x86_64-linux-gnu/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/librostime.so;general;/usr/lib/x86_64-linux-gnu/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;orocos-kdl;
+
+//Value Computed by CMake
+tf_conversions_SOURCE_DIR:STATIC=/home/dte/Desktop/rtech/src/tf_conversions
 
 //Value Computed by CMake
 turtlesim_BINARY_DIR:STATIC=/home/dte/Desktop/rtech/build/turtlesim
@@ -692,7 +743,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

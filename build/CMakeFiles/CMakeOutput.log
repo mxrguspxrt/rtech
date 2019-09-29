@@ -762,3 +762,65 @@ make[1]: Leaving directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5eef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5eef.dir/build.make CMakeFiles/cmTC_f5eef.dir/build
+make[1]: Entering directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5eef.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_f5eef.dir/src.cxx.o -c /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5eef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5eef.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_f5eef.dir/src.cxx.o  -o cmTC_f5eef 
+make[1]: Leaving directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3bc0/fast"
+make[1]: Entering directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3bc0.dir/build.make CMakeFiles/cmTC_c3bc0.dir/build
+make[2]: Entering directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3bc0.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_c3bc0.dir/src.cxx.o -c /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c3bc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3bc0.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_c3bc0.dir/src.cxx.o  -o cmTC_c3bc0 
+make[2]: Leaving directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7081/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7081.dir/build.make CMakeFiles/cmTC_c7081.dir/build
+make[1]: Entering directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7081.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_c7081.dir/src.cxx.o -c /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7081.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_c7081.dir/src.cxx.o  -o cmTC_c7081 
+make[1]: Leaving directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2255c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2255c.dir/build.make CMakeFiles/cmTC_2255c.dir/build
+make[1]: Entering directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2255c.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_2255c.dir/src.cxx.o -c /home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2255c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2255c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_2255c.dir/src.cxx.o  -o cmTC_2255c 
+make[1]: Leaving directory '/home/dte/Desktop/rtech/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

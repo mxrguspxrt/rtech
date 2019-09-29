@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11 -Wall -Wextra
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"robot_state_publisher\"
 
-CXX_INCLUDES = -I/home/dte/Desktop/rtech/src/robot_state_publisher/include -I/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/share/orocos_kdl/cmake/../../../include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/dte/Desktop/rtech/src/robot_state_publisher/include -I/home/dte/Desktop/rtech/devel/include -I/home/dte/Desktop/rtech/src/tf/include -I/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/share/orocos_kdl/cmake/../../../include -isystem /usr/include/eigen3 
 

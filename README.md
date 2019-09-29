@@ -146,9 +146,6 @@ source devel/setup.bash
 rosrun turtlesim turtlesim_node
 
 source devel/setup.bash
-rosrun turtlesim turtlesim_node
-
-source devel/setup.bash
 rosrun turtlesim turtle_teleop_key
 
 src/xacro/scripts/xacro --inorder src/my_r2d2/urdf/r2d2.urdf.xacro > src/my_r2d2/urdf/r2d2-from-xacro.urdf
@@ -156,6 +153,24 @@ roslaunch urdf_tutorial display.launch model:='$(find my_r2d2)/urdf/r2d2-from-xa
 
 roslaunch my_r2d2 r2d2.launch
 
+cd src
+git@github.com:ut-ims-robotics/r2d2_navigator.git
+rm -rf r2d2_navigator/.git
+cd ..
+catkin_make
+# output: 
+# [100%] Linking CXX executable /home/dte/Desktop/rtech/devel/lib/r2d2_navigator/fake_r2d2_controller
+
+
+rosrun r2d2_navigator fake_r2d2_controller
+rosnode list
+rosnode info /fake_r2d2_controller
+# output: /cmd_vel
+
+rosnode list
+# output: /turtlesim
+
+rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/cmd_vel
 
 ```
 

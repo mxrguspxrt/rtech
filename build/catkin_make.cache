@@ -1,2 +1,2 @@
-beginner_tutorials:joint_state_publisher/joint_state_publisher:media_export:my_r2d2:robot_state_publisher:roslint:rqt_console:rqt_py_common:turtlesim:urdf_tutorial:xacro
+beginner_tutorials:eigen_conversions:joint_state_publisher/joint_state_publisher:kdl_conversions:media_export:my_r2d2:r2d2_navigator:robot_state_publisher:roslint:rqt_console:rqt_py_common:tf:tf_conversions:turtlesim:urdf_tutorial:xacro
 -DCATKIN_DEVEL_PREFIX=/home/dte/Desktop/rtech/devel -DCMAKE_INSTALL_PREFIX=/home/dte/Desktop/rtech/install -G Unix Makefiles
