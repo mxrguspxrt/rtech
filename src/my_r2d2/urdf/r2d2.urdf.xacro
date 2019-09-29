@@ -235,4 +235,27 @@
     <origin xyz="${.707*width+0.04} 0 ${.707*width}"/>
   </joint>
 
+  <link name="lens">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="0.015" />
+      </geometry>
+      <material name="black"/>
+      <origin xyz="0 0 0" />
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.03" length="0.015" />
+      </geometry>
+      <origin xyz="0 0 0"/>
+    </collision>
+    <xacro:default_inertial mass="1"/>
+  </link>
+
+  <joint name="lens_to_box" type="fixed">
+    <parent link="box"/>
+    <child link="lens"/>
+    <origin xyz="0 0 0" rpy="0 ${pi/2} 0"/>
+  </joint>
+
 </robot>

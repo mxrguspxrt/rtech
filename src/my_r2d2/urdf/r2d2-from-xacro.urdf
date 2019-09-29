@@ -386,5 +386,29 @@
     <child link="box"/>
     <origin xyz="0.1814 0 0.1414"/>
   </joint>
+  <link name="lens">
+    <visual>
+      <geometry>
+        <cylinder length="0.015" radius="0.03"/>
+      </geometry>
+      <material name="black"/>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.015" radius="0.03"/>
+      </geometry>
+      <origin xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>
+  </link>
+  <joint name="lens_to_box" type="fixed">
+    <parent link="box"/>
+    <child link="lens"/>
+    <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+  </joint>
 </robot>
 
