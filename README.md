@@ -122,7 +122,7 @@ roslaunch urdf_tutorial display.launch model:='$(find urdf_tutorial)/urdf/01-myf
 # http://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch
 roslaunch urdf_tutorial display.launch model:='$(find my_r2d2)/urdf/r2d2.urdf'
 
-
+# http://wiki.ros.org/urdf/Tutorials/Building%20a%20Movable%20Robot%20Model%20with%20URDF
 
 
 ```
