@@ -137,3 +137,25 @@ src/xacro/scripts/xacro --inorder src/my_r2d2/urdf/r2d2.urdf.xacro > src/my_r2d2
 roslaunch urdf_tutorial display.launch model:='$(find my_r2d2)/urdf/r2d2-from-xacro.urdf'
 
 ```
+
+
+# 3
+
+```
+source devel/setup.bash
+rosrun turtlesim turtlesim_node
+
+source devel/setup.bash
+rosrun turtlesim turtlesim_node
+
+source devel/setup.bash
+rosrun turtlesim turtle_teleop_key
+
+src/xacro/scripts/xacro --inorder src/my_r2d2/urdf/r2d2.urdf.xacro > src/my_r2d2/urdf/r2d2-from-xacro.urdf
+roslaunch urdf_tutorial display.launch model:='$(find my_r2d2)/urdf/r2d2-from-xacro.urdf'
+
+```
+
+Created base_footprint and re-positioned.
+
+![Image of Yaktocat](pictures/base_footprint_screenshot.png)
