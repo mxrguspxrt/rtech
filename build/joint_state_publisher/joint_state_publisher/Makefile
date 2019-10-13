@@ -68,6 +68,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -79,17 +90,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -273,19 +273,34 @@ run_tests_joint_state_publisher/fast:
 .PHONY : run_tests_joint_state_publisher/fast
 
 # Convenience name for target.
-joint_state_publisher/joint_state_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 joint_state_publisher/joint_state_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : joint_state_publisher/joint_state_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule
+joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule
+.PHONY : joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: joint_state_publisher/joint_state_publisher/CMakeFiles/_catkin_empty_exported_target.dir/rule
+clean_test_results_joint_state_publisher: joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule
 
-.PHONY : _catkin_empty_exported_target
+.PHONY : clean_test_results_joint_state_publisher
 
 # fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f joint_state_publisher/joint_state_publisher/CMakeFiles/_catkin_empty_exported_target.dir/build.make joint_state_publisher/joint_state_publisher/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
+clean_test_results_joint_state_publisher/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/build.make joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/build
+.PHONY : clean_test_results_joint_state_publisher/fast
+
+# Convenience name for target.
+joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule
+.PHONY : joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule
+
+# Convenience name for target.
+_run_tests_joint_state_publisher: joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule
+
+.PHONY : _run_tests_joint_state_publisher
+
+# fast build rule for target.
+_run_tests_joint_state_publisher/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/build.make joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/build
+.PHONY : _run_tests_joint_state_publisher/fast
 
 # Convenience name for target.
 joint_state_publisher/joint_state_publisher/CMakeFiles/run_tests_joint_state_publisher_rostest_test_test_mimic_chain.launch.dir/rule:
@@ -316,36 +331,6 @@ _run_tests_joint_state_publisher_rostest_test_test_multi_joints_urdf.launch: joi
 _run_tests_joint_state_publisher_rostest_test_test_multi_joints_urdf.launch/fast:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher_rostest_test_test_multi_joints_urdf.launch.dir/build.make joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher_rostest_test_test_multi_joints_urdf.launch.dir/build
 .PHONY : _run_tests_joint_state_publisher_rostest_test_test_multi_joints_urdf.launch/fast
-
-# Convenience name for target.
-joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule
-.PHONY : joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule
-
-# Convenience name for target.
-_run_tests_joint_state_publisher: joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/rule
-
-.PHONY : _run_tests_joint_state_publisher
-
-# fast build rule for target.
-_run_tests_joint_state_publisher/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/build.make joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher.dir/build
-.PHONY : _run_tests_joint_state_publisher/fast
-
-# Convenience name for target.
-joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule
-.PHONY : joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule
-
-# Convenience name for target.
-clean_test_results_joint_state_publisher: joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/rule
-
-.PHONY : clean_test_results_joint_state_publisher
-
-# fast build rule for target.
-clean_test_results_joint_state_publisher/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/build.make joint_state_publisher/joint_state_publisher/CMakeFiles/clean_test_results_joint_state_publisher.dir/build
-.PHONY : clean_test_results_joint_state_publisher/fast
 
 # Convenience name for target.
 joint_state_publisher/joint_state_publisher/CMakeFiles/_run_tests_joint_state_publisher_rostest_test_test_multi_joints_collada.launch.dir/rule:
@@ -451,13 +436,12 @@ help:
 	@echo "... _run_tests_joint_state_publisher_rostest_test_test_zero_joints.launch"
 	@echo "... _run_tests_joint_state_publisher_rostest_test_test_mimic_chain.launch"
 	@echo "... run_tests_joint_state_publisher"
-	@echo "... install/local"
-	@echo "... _catkin_empty_exported_target"
+	@echo "... clean_test_results_joint_state_publisher"
+	@echo "... _run_tests_joint_state_publisher"
+	@echo "... test"
 	@echo "... run_tests_joint_state_publisher_rostest_test_test_mimic_chain.launch"
 	@echo "... _run_tests_joint_state_publisher_rostest_test_test_multi_joints_urdf.launch"
-	@echo "... test"
-	@echo "... _run_tests_joint_state_publisher"
-	@echo "... clean_test_results_joint_state_publisher"
+	@echo "... install/local"
 	@echo "... _run_tests_joint_state_publisher_rostest_test_test_multi_joints_collada.launch"
 	@echo "... run_tests_joint_state_publisher_rostest_test_test_64_joint_robot.launch"
 	@echo "... _run_tests_joint_state_publisher_rostest"

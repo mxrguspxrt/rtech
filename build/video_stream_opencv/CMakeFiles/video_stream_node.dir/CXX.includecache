@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dte/Desktop/rtech/src/video_stream_opencv/src/video_stream_node.cpp
+ros/ros.h
+-
+nodelet/loader.h
+-
+

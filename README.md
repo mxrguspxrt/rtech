@@ -177,3 +177,35 @@ rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/cmd_vel
 Created base_footprint and re-positioned.
 
 ![Image of Yaktocat](pictures/base_footprint_screenshot.png)
+
+
+# 4
+
+I will be using modified steps, because I have newest version of Ubuntu and ROS + I will use video, instead of camera, because I have no USB camera and it is after 23:00 in Sunday evening (too late to buy one).
+
+```
+
+# 0. Custom prestep. Because I have no camera, I am using video that I recorded from phone.
+# https://github.com/ros-drivers/video_stream_opencv
+# https://github.com/umlaeute/v4l2loopback
+# https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c
+
+sudo apt-get install gstreamer1.0-libav
+
+
+gst-launch-1.0 filesrc location=../../Downloads/IMG_0546.MOV ! qtdemux name=demux  demux.audio_0 ! queue ! decodebin ! audioconvert ! audioresample ! autoaudiosink   demux.video_0 ! queue ! decodebin ! videoconvert ! videoscale ! v4l2sink device=/dev/video0
+
+rosrun video_stream_opencv test_video_resource.py ../../Downloads/IMG_0546.MOV
+roscore
+
+# 1. Install usb cam from
+https://github.com/ros-drivers/usb_cam
+roslaunch usb_cam usb_cam-test.launch
+
+# 2. Calibrate
+sudo apt-get install gtk2.0 # for next package
+https://github.com/ros-perception/image_pipeline
+
+
+
+```

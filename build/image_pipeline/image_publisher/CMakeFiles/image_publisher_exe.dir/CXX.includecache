@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dte/Desktop/rtech/src/image_pipeline/image_publisher/src/node/image_publisher.cpp
+ros/ros.h
+-
+nodelet/loader.h
+-
+

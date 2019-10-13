@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dte/Desktop/rtech/devel/include/image_view/ImageViewConfig.h
+dynamic_reconfigure/config_tools.h
+-
+limits
+-
+ros/node_handle.h
+-
+dynamic_reconfigure/ConfigDescription.h
+-
+dynamic_reconfigure/ParamDescription.h
+-
+dynamic_reconfigure/Group.h
+-
+dynamic_reconfigure/config_init_mutex.h
+-
+boost/any.hpp
+-
+
+/home/dte/Desktop/rtech/src/image_pipeline/image_view/src/nodes/image_view.cpp
+image_view/ImageViewConfig.h
+-
+ros/ros.h
+-
+image_transport/image_transport.h
+-
+dynamic_reconfigure/server.h
+-
+cv_bridge/cv_bridge.h
+-
+opencv2/highgui/highgui.hpp
+-
+boost/format.hpp
+-
+boost/thread.hpp
+-
+boost/filesystem.hpp
+-
+
