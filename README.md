@@ -192,7 +192,7 @@ I will be using modified steps, because I have newest version of Ubuntu and ROS 
 
 sudo apt-get install gstreamer1.0-libav
 
-
+sidp modprobe v4l2loopback devices=4
 gst-launch-1.0 filesrc location=../../Downloads/IMG_0546.MOV ! qtdemux name=demux  demux.audio_0 ! queue ! decodebin ! audioconvert ! audioresample ! autoaudiosink   demux.video_0 ! queue ! decodebin ! videoconvert ! videoscale ! v4l2sink device=/dev/video0
 
 rosrun video_stream_opencv test_video_resource.py ../../Downloads/IMG_0546.MOV
