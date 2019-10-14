@@ -206,6 +206,10 @@ roslaunch usb_cam usb_cam-test.launch
 sudo apt-get install gtk2.0 # for next package
 https://github.com/ros-perception/image_pipeline
 
+rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.036 image:=/usb_cam/image_raw camera:=/usb_cam
+
+# 3. Install ros-kinetic-ar-track-alvar
+https://github.com/ros-perception/ar_track_alvar
 
 
 ```
