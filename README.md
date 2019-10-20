@@ -227,5 +227,6 @@ rostopic list
 rostopic echo /ucat0/hw/imu
 roslaunch my_r2d2 test_playback.launch
 
-
 ```
+
+![Image of Yaktocat](task5/rviz_screenshot_2019_10_20-16_45_21.png)
