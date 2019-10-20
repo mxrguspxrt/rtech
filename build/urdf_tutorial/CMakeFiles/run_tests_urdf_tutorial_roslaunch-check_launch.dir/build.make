@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include urdf_tutorial/CMakeFiles/run_tests_urdf_tutorial_roslaunch-check_launch.dir/progress.make
 
 urdf_tutorial/CMakeFiles/run_tests_urdf_tutorial_roslaunch-check_launch:
-	cd /home/dte/Desktop/rtech/build/urdf_tutorial && ../catkin_generated/env_cached.sh /usr/bin/python /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/urdf_tutorial/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/dte/Desktop/rtech/build/test_results/urdf_tutorial" "/usr/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/dte/Desktop/rtech/build/test_results/urdf_tutorial/roslaunch-check_launch.xml' '/home/dte/Desktop/rtech/src/urdf_tutorial/launch' "
+	cd /home/dte/Desktop/rtech/build/urdf_tutorial && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/urdf_tutorial/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/dte/Desktop/rtech/build/test_results/urdf_tutorial" "/usr/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/dte/Desktop/rtech/build/test_results/urdf_tutorial/roslaunch-check_launch.xml' '/home/dte/Desktop/rtech/src/urdf_tutorial/launch' "
 
 run_tests_urdf_tutorial_roslaunch-check_launch: urdf_tutorial/CMakeFiles/run_tests_urdf_tutorial_roslaunch-check_launch
 run_tests_urdf_tutorial_roslaunch-check_launch: urdf_tutorial/CMakeFiles/run_tests_urdf_tutorial_roslaunch-check_launch.dir/build.make

@@ -7,4 +7,8 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH=""
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+export PKG_CONFIG_PATH=""
 export PWD="/home/dte/Desktop/rtech/build"
+export PYTHONPATH=""

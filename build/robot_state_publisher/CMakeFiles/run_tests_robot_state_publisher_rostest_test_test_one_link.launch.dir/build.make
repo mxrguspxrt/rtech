@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include robot_state_publisher/CMakeFiles/run_tests_robot_state_publisher_rostest_test_test_one_link.launch.dir/progress.make
 
 robot_state_publisher/CMakeFiles/run_tests_robot_state_publisher_rostest_test_test_one_link.launch:
-	cd /home/dte/Desktop/rtech/build/robot_state_publisher && ../catkin_generated/env_cached.sh /usr/bin/python /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/robot_state_publisher/rostest-test_test_one_link.xml "/usr/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/dte/Desktop/rtech/src/robot_state_publisher --package=robot_state_publisher --results-filename test_test_one_link.xml --results-base-dir \"/home/dte/Desktop/rtech/build/test_results\" /home/dte/Desktop/rtech/src/robot_state_publisher/test/test_one_link.launch "
+	cd /home/dte/Desktop/rtech/build/robot_state_publisher && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/robot_state_publisher/rostest-test_test_one_link.xml "/usr/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/dte/Desktop/rtech/src/robot_state_publisher --package=robot_state_publisher --results-filename test_test_one_link.xml --results-base-dir \"/home/dte/Desktop/rtech/build/test_results\" /home/dte/Desktop/rtech/src/robot_state_publisher/test/test_one_link.launch "
 
 run_tests_robot_state_publisher_rostest_test_test_one_link.launch: robot_state_publisher/CMakeFiles/run_tests_robot_state_publisher_rostest_test_test_one_link.launch
 run_tests_robot_state_publisher_rostest_test_test_one_link.launch: robot_state_publisher/CMakeFiles/run_tests_robot_state_publisher_rostest_test_test_one_link.launch.dir/build.make

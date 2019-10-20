@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/progress.make
 
 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts:
-	cd /home/dte/Desktop/rtech/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genmsg/genmsg_check_deps.py beginner_tutorials /home/dte/Desktop/rtech/src/beginner_tutorials/srv/AddTwoInts.srv 
+	cd /home/dte/Desktop/rtech/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genmsg/genmsg_check_deps.py beginner_tutorials /home/dte/Desktop/rtech/src/beginner_tutorials/srv/AddTwoInts.srv 
 
 _beginner_tutorials_generate_messages_check_deps_AddTwoInts: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts
 _beginner_tutorials_generate_messages_check_deps_AddTwoInts: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/build.make

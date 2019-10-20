@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include robot_state_publisher/CMakeFiles/clean_test_results_robot_state_publisher.dir/progress.make
 
 robot_state_publisher/CMakeFiles/clean_test_results_robot_state_publisher:
-	cd /home/dte/Desktop/rtech/build/robot_state_publisher && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/robot_state_publisher
+	cd /home/dte/Desktop/rtech/build/robot_state_publisher && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/robot_state_publisher
 
 clean_test_results_robot_state_publisher: robot_state_publisher/CMakeFiles/clean_test_results_robot_state_publisher
 clean_test_results_robot_state_publisher: robot_state_publisher/CMakeFiles/clean_test_results_robot_state_publisher.dir/build.make

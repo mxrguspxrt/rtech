@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include roslint/CMakeFiles/run_tests_roslint_roslint_package.dir/progress.make
 
 roslint/CMakeFiles/run_tests_roslint_roslint_package:
-	cd /home/dte/Desktop/rtech/build/roslint && ../catkin_generated/env_cached.sh /usr/bin/python /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/roslint/roslint-roslint.xml --working-dir /home/dte/Desktop/rtech/build/roslint "/home/dte/Desktop/rtech/src/roslint/scripts/test_wrapper /home/dte/Desktop/rtech/build/test_results/roslint/roslint-roslint.xml make roslint_roslint"
+	cd /home/dte/Desktop/rtech/build/roslint && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/roslint/roslint-roslint.xml --working-dir /home/dte/Desktop/rtech/build/roslint "/home/dte/Desktop/rtech/src/roslint/scripts/test_wrapper /home/dte/Desktop/rtech/build/test_results/roslint/roslint-roslint.xml make roslint_roslint"
 
 run_tests_roslint_roslint_package: roslint/CMakeFiles/run_tests_roslint_roslint_package
 run_tests_roslint_roslint_package: roslint/CMakeFiles/run_tests_roslint_roslint_package.dir/build.make

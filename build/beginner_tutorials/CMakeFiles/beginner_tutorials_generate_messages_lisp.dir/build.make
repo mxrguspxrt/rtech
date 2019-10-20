@@ -60,12 +60,12 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/d
 /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp: /usr/lib/genlisp/gen_lisp.py
 /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp: /home/dte/Desktop/rtech/src/beginner_tutorials/msg/Num.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dte/Desktop/rtech/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from beginner_tutorials/Num.msg"
-	cd /home/dte/Desktop/rtech/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genlisp/gen_lisp.py /home/dte/Desktop/rtech/src/beginner_tutorials/msg/Num.msg -Ibeginner_tutorials:/home/dte/Desktop/rtech/src/beginner_tutorials/msg -Istd_msgs:/usr/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/msg
+	cd /home/dte/Desktop/rtech/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genlisp/gen_lisp.py /home/dte/Desktop/rtech/src/beginner_tutorials/msg/Num.msg -Ibeginner_tutorials:/home/dte/Desktop/rtech/src/beginner_tutorials/msg -Istd_msgs:/usr/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/msg
 
 /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp: /usr/lib/genlisp/gen_lisp.py
 /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp: /home/dte/Desktop/rtech/src/beginner_tutorials/srv/AddTwoInts.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dte/Desktop/rtech/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from beginner_tutorials/AddTwoInts.srv"
-	cd /home/dte/Desktop/rtech/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genlisp/gen_lisp.py /home/dte/Desktop/rtech/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/dte/Desktop/rtech/src/beginner_tutorials/msg -Istd_msgs:/usr/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/srv
+	cd /home/dte/Desktop/rtech/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genlisp/gen_lisp.py /home/dte/Desktop/rtech/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/dte/Desktop/rtech/src/beginner_tutorials/msg -Istd_msgs:/usr/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/srv
 
 beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp
 beginner_tutorials_generate_messages_lisp: /home/dte/Desktop/rtech/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp

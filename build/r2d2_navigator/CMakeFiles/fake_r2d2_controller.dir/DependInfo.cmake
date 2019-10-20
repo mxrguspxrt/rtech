@@ -17,14 +17,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/dte/Desktop/rtech/devel/include"
-  "/home/dte/Desktop/rtech/src/tf/include"
   "/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dte/Desktop/rtech/build/tf/CMakeFiles/tf.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

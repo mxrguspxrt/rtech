@@ -18,8 +18,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/dte/Desktop/rtech/src/robot_state_publisher/include"
-  "/home/dte/Desktop/rtech/devel/include"
-  "/home/dte/Desktop/rtech/src/tf/include"
   "/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/share/orocos_kdl/cmake/../../../include"
   "/usr/include/eigen3"
@@ -29,7 +27,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/dte/Desktop/rtech/build/robot_state_publisher/CMakeFiles/joint_state_listener.dir/DependInfo.cmake"
   "/home/dte/Desktop/rtech/build/robot_state_publisher/CMakeFiles/robot_state_publisher_solver.dir/DependInfo.cmake"
-  "/home/dte/Desktop/rtech/build/tf/CMakeFiles/tf.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

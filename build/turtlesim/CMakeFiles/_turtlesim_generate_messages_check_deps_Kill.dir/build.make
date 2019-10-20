@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/progress.make
 
 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill:
-	cd /home/dte/Desktop/rtech/build/turtlesim && ../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genmsg/genmsg_check_deps.py turtlesim /home/dte/Desktop/rtech/src/turtlesim/srv/Kill.srv 
+	cd /home/dte/Desktop/rtech/build/turtlesim && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genmsg/genmsg_check_deps.py turtlesim /home/dte/Desktop/rtech/src/turtlesim/srv/Kill.srv 
 
 _turtlesim_generate_messages_check_deps_Kill: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill
 _turtlesim_generate_messages_check_deps_Kill: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Kill.dir/build.make

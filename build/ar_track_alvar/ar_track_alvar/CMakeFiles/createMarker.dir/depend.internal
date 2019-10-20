@@ -21,12 +21,6 @@ ar_track_alvar/ar_track_alvar/CMakeFiles/createMarker.dir/src/SampleMarkerCreato
  /home/dte/Desktop/rtech/src/ar_track_alvar/ar_track_alvar/src/SampleMarkerCreator.cpp
  /home/dte/Desktop/rtech/src/perception_pcl/pcl_conversions/include/pcl_conversions/pcl_conversions.h
  /home/dte/Desktop/rtech/src/perception_pcl/pcl_ros/include/pcl_ros/point_cloud.h
- /home/dte/Desktop/rtech/src/tf/include/tf/LinearMath/Matrix3x3.h
- /home/dte/Desktop/rtech/src/tf/include/tf/LinearMath/MinMax.h
- /home/dte/Desktop/rtech/src/tf/include/tf/LinearMath/QuadWord.h
- /home/dte/Desktop/rtech/src/tf/include/tf/LinearMath/Quaternion.h
- /home/dte/Desktop/rtech/src/tf/include/tf/LinearMath/Scalar.h
- /home/dte/Desktop/rtech/src/tf/include/tf/LinearMath/Vector3.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include urdf_tutorial/CMakeFiles/clean_test_results_urdf_tutorial.dir/progress.make
 
 urdf_tutorial/CMakeFiles/clean_test_results_urdf_tutorial:
-	cd /home/dte/Desktop/rtech/build/urdf_tutorial && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/urdf_tutorial
+	cd /home/dte/Desktop/rtech/build/urdf_tutorial && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/urdf_tutorial
 
 clean_test_results_urdf_tutorial: urdf_tutorial/CMakeFiles/clean_test_results_urdf_tutorial
 clean_test_results_urdf_tutorial: urdf_tutorial/CMakeFiles/clean_test_results_urdf_tutorial.dir/build.make

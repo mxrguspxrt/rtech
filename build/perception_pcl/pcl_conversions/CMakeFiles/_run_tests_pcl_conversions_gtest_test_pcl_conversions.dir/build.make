@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include perception_pcl/pcl_conversions/CMakeFiles/_run_tests_pcl_conversions_gtest_test_pcl_conversions.dir/progress.make
 
 perception_pcl/pcl_conversions/CMakeFiles/_run_tests_pcl_conversions_gtest_test_pcl_conversions:
-	cd /home/dte/Desktop/rtech/build/perception_pcl/pcl_conversions && ../../catkin_generated/env_cached.sh /usr/bin/python /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/pcl_conversions/gtest-test_pcl_conversions.xml "/home/dte/Desktop/rtech/devel/lib/pcl_conversions/test_pcl_conversions --gtest_output=xml:/home/dte/Desktop/rtech/build/test_results/pcl_conversions/gtest-test_pcl_conversions.xml"
+	cd /home/dte/Desktop/rtech/build/perception_pcl/pcl_conversions && ../../catkin_generated/env_cached.sh /usr/bin/python2 /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/pcl_conversions/gtest-test_pcl_conversions.xml "/home/dte/Desktop/rtech/devel/lib/pcl_conversions/test_pcl_conversions --gtest_output=xml:/home/dte/Desktop/rtech/build/test_results/pcl_conversions/gtest-test_pcl_conversions.xml"
 
 _run_tests_pcl_conversions_gtest_test_pcl_conversions: perception_pcl/pcl_conversions/CMakeFiles/_run_tests_pcl_conversions_gtest_test_pcl_conversions
 _run_tests_pcl_conversions_gtest_test_pcl_conversions: perception_pcl/pcl_conversions/CMakeFiles/_run_tests_pcl_conversions_gtest_test_pcl_conversions.dir/build.make

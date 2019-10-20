@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/progress.make
 
 video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test:
-	cd /home/dte/Desktop/rtech/build/video_stream_opencv && ../catkin_generated/env_cached.sh /usr/bin/python /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/video_stream_opencv/rostest-test_test_video_file.xml "/usr/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/dte/Desktop/rtech/src/video_stream_opencv --package=video_stream_opencv --results-filename test_test_video_file.xml --results-base-dir \"/home/dte/Desktop/rtech/build/test_results\" /home/dte/Desktop/rtech/src/video_stream_opencv/test/test_video_file.test "
+	cd /home/dte/Desktop/rtech/build/video_stream_opencv && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/video_stream_opencv/rostest-test_test_video_file.xml "/usr/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/dte/Desktop/rtech/src/video_stream_opencv --package=video_stream_opencv --results-filename test_test_video_file.xml --results-base-dir \"/home/dte/Desktop/rtech/build/test_results\" /home/dte/Desktop/rtech/src/video_stream_opencv/test/test_video_file.test "
 
 _run_tests_video_stream_opencv_rostest_test_test_video_file.test: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test
 _run_tests_video_stream_opencv_rostest_test_test_video_file.test: video_stream_opencv/CMakeFiles/_run_tests_video_stream_opencv_rostest_test_test_video_file.test.dir/build.make

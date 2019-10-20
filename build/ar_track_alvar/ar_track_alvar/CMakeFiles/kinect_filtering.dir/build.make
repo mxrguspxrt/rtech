@@ -112,7 +112,7 @@ kinect_filtering_EXTERNAL_OBJECTS =
 /home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/libroslz4.so
 /home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/liblz4.so
 /home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/libtopic_tools.so
-/home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /home/dte/Desktop/rtech/devel/lib/libtf.so
+/home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/libtf.so
 /home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/libtf2_ros.so
 /home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/libactionlib.so
 /home/dte/Desktop/rtech/devel/lib/libkinect_filtering.so: /usr/lib/x86_64-linux-gnu/libmessage_filters.so

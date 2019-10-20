@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"r2d2_navigator\"
 
-CXX_INCLUDES = -I/home/dte/Desktop/rtech/devel/include -I/home/dte/Desktop/rtech/src/tf/include -I/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

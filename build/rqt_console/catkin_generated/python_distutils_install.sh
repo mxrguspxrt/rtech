@@ -25,7 +25,7 @@ echo_and_run mkdir -p "$DESTDIR/home/dte/Desktop/rtech/install/lib/python2.7/dis
 echo_and_run /usr/bin/env \
     PYTHONPATH="/home/dte/Desktop/rtech/install/lib/python2.7/dist-packages:/home/dte/Desktop/rtech/build/lib/python2.7/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/dte/Desktop/rtech/build" \
-    "/usr/bin/python" \
+    "/usr/bin/python2" \
     "/home/dte/Desktop/rtech/src/rqt_console/setup.py" \
     build --build-base "/home/dte/Desktop/rtech/build/rqt_console" \
     install \

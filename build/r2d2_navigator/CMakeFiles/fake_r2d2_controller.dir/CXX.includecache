@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/dte/Desktop/rtech/src/r2d2_navigator/src/fake_r2d2_controller.cpp
+ros/ros.h
+-
+tf/transform_broadcaster.h
+-
+geometry_msgs/Twist.h
+-
+

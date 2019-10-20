@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results
+	/usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make

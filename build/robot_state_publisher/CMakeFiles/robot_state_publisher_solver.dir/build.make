@@ -79,7 +79,7 @@ robot_state_publisher_solver_EXTERNAL_OBJECTS =
 
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: robot_state_publisher/CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: robot_state_publisher/CMakeFiles/robot_state_publisher_solver.dir/build.make
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /home/dte/Desktop/rtech/devel/lib/libtf.so
+/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libtf.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libtf2_ros.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libactionlib.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libmessage_filters.so
@@ -106,13 +106,6 @@ robot_state_publisher_solver_EXTERNAL_OBJECTS =
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libxmlrpcpp.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/librostime.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libcpp_common.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so

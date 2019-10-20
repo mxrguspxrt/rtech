@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/progress.make
 
 ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar:
-	cd /home/dte/Desktop/rtech/build/ar_track_alvar/ar_track_alvar && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/ar_track_alvar
+	cd /home/dte/Desktop/rtech/build/ar_track_alvar/ar_track_alvar && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/ar_track_alvar
 
 clean_test_results_ar_track_alvar: ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar
 clean_test_results_ar_track_alvar: ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/build.make

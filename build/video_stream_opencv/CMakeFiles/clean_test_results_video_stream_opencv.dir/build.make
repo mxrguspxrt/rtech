@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/progress.make
 
 video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv:
-	cd /home/dte/Desktop/rtech/build/video_stream_opencv && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/video_stream_opencv
+	cd /home/dte/Desktop/rtech/build/video_stream_opencv && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/video_stream_opencv
 
 clean_test_results_video_stream_opencv: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv
 clean_test_results_video_stream_opencv: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build.make

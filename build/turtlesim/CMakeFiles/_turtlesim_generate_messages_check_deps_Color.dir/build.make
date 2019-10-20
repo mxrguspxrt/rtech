@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Color.dir/progress.make
 
 turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Color:
-	cd /home/dte/Desktop/rtech/build/turtlesim && ../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genmsg/genmsg_check_deps.py turtlesim /home/dte/Desktop/rtech/src/turtlesim/msg/Color.msg 
+	cd /home/dte/Desktop/rtech/build/turtlesim && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genmsg/genmsg_check_deps.py turtlesim /home/dte/Desktop/rtech/src/turtlesim/msg/Color.msg 
 
 _turtlesim_generate_messages_check_deps_Color: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Color
 _turtlesim_generate_messages_check_deps_Color: turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_Color.dir/build.make

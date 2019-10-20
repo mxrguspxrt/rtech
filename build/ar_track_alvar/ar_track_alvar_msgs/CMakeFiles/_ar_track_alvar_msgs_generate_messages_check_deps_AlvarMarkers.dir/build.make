@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers.dir/progress.make
 
 ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers:
-	cd /home/dte/Desktop/rtech/build/ar_track_alvar/ar_track_alvar_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genmsg/genmsg_check_deps.py ar_track_alvar_msgs /home/dte/Desktop/rtech/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarkers.msg geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Point:ar_track_alvar_msgs/AlvarMarker:geometry_msgs/Pose
+	cd /home/dte/Desktop/rtech/build/ar_track_alvar/ar_track_alvar_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genmsg/genmsg_check_deps.py ar_track_alvar_msgs /home/dte/Desktop/rtech/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarkers.msg geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Point:ar_track_alvar_msgs/AlvarMarker:geometry_msgs/Pose
 
 _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers: ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers
 _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers: ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarkers.dir/build.make

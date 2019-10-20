@@ -215,3 +215,17 @@ https://github.com/ros-perception/ar_track_alvar
 
 # 5
 
+```
+# Tab 1
+roscore
+
+# Tab 2
+rosbag play task5/2018-05-30-11-43-36.bag 
+
+# Tab 3
+rostopic list
+rostopic echo /ucat0/hw/imu
+roslaunch my_r2d2 test_playback.launch
+
+
+```

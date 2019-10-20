@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/progress.make
 
 image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc:
-	cd /home/dte/Desktop/rtech/build/image_pipeline/image_proc/test && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/image_proc
+	cd /home/dte/Desktop/rtech/build/image_pipeline/image_proc/test && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/image_proc
 
 clean_test_results_image_proc: image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc
 clean_test_results_image_proc: image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build.make

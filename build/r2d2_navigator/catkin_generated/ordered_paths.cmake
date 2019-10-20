@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/dte/Desktop/rtech/devel/include;/home/dte/Desktop/rtech/src/tf/include;/usr/include;/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp")
+set(ORDERED_PATHS "/usr/include;/usr/share/xmlrpcpp/cmake/../../../include/xmlrpcpp")

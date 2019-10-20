@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include rqt_py_common/CMakeFiles/_rqt_py_common_generate_messages_check_deps_Val.dir/progress.make
 
 rqt_py_common/CMakeFiles/_rqt_py_common_generate_messages_check_deps_Val:
-	cd /home/dte/Desktop/rtech/build/rqt_py_common && ../catkin_generated/env_cached.sh /usr/bin/python /usr/lib/genmsg/genmsg_check_deps.py rqt_py_common /home/dte/Desktop/rtech/src/rqt_py_common/test/msg/Val.msg 
+	cd /home/dte/Desktop/rtech/build/rqt_py_common && ../catkin_generated/env_cached.sh /usr/bin/python2 /usr/lib/genmsg/genmsg_check_deps.py rqt_py_common /home/dte/Desktop/rtech/src/rqt_py_common/test/msg/Val.msg 
 
 _rqt_py_common_generate_messages_check_deps_Val: rqt_py_common/CMakeFiles/_rqt_py_common_generate_messages_check_deps_Val
 _rqt_py_common_generate_messages_check_deps_Val: rqt_py_common/CMakeFiles/_rqt_py_common_generate_messages_check_deps_Val.dir/build.make

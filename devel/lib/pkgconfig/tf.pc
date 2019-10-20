@@ -1,8 +1,0 @@
-prefix=/home/dte/Desktop/rtech/devel
-
-Name: tf
-Description: Description of tf
-Version: 1.12.0
-Cflags: -I/home/dte/Desktop/rtech/devel/include -I/home/dte/Desktop/rtech/src/tf/include
-Libs: -L/home/dte/Desktop/rtech/devel/lib -ltf
-Requires: geometry_msgs message_filters message_runtime roscpp sensor_msgs std_msgs tf2_ros rosconsole

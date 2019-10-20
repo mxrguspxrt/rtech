@@ -80,7 +80,7 @@ joint_state_listener_EXTERNAL_OBJECTS =
 /home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: robot_state_publisher/CMakeFiles/joint_state_listener.dir/src/joint_state_listener.cpp.o
 /home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: robot_state_publisher/CMakeFiles/joint_state_listener.dir/build.make
 /home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: /home/dte/Desktop/rtech/devel/lib/librobot_state_publisher_solver.so
-/home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: /home/dte/Desktop/rtech/devel/lib/libtf.so
+/home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: /usr/lib/x86_64-linux-gnu/libtf.so
 /home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: /usr/lib/x86_64-linux-gnu/libtf2_ros.so
 /home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: /usr/lib/x86_64-linux-gnu/libactionlib.so
 /home/dte/Desktop/rtech/devel/lib/libjoint_state_listener.so: /usr/lib/x86_64-linux-gnu/libmessage_filters.so

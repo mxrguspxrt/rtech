@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include perception_pcl/pcl_ros/CMakeFiles/clean_test_results_pcl_ros.dir/progress.make
 
 perception_pcl/pcl_ros/CMakeFiles/clean_test_results_pcl_ros:
-	cd /home/dte/Desktop/rtech/build/perception_pcl/pcl_ros && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/pcl_ros
+	cd /home/dte/Desktop/rtech/build/perception_pcl/pcl_ros && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/pcl_ros
 
 clean_test_results_pcl_ros: perception_pcl/pcl_ros/CMakeFiles/clean_test_results_pcl_ros
 clean_test_results_pcl_ros: perception_pcl/pcl_ros/CMakeFiles/clean_test_results_pcl_ros.dir/build.make

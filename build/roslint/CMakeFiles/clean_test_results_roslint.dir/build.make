@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include roslint/CMakeFiles/clean_test_results_roslint.dir/progress.make
 
 roslint/CMakeFiles/clean_test_results_roslint:
-	cd /home/dte/Desktop/rtech/build/roslint && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/roslint
+	cd /home/dte/Desktop/rtech/build/roslint && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/roslint
 
 clean_test_results_roslint: roslint/CMakeFiles/clean_test_results_roslint
 clean_test_results_roslint: roslint/CMakeFiles/clean_test_results_roslint.dir/build.make

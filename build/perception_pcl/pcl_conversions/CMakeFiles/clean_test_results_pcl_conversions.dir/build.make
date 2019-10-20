@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include perception_pcl/pcl_conversions/CMakeFiles/clean_test_results_pcl_conversions.dir/progress.make
 
 perception_pcl/pcl_conversions/CMakeFiles/clean_test_results_pcl_conversions:
-	cd /home/dte/Desktop/rtech/build/perception_pcl/pcl_conversions && /usr/bin/python /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/pcl_conversions
+	cd /home/dte/Desktop/rtech/build/perception_pcl/pcl_conversions && /usr/bin/python2 /usr/share/catkin/cmake/test/remove_test_results.py /home/dte/Desktop/rtech/build/test_results/pcl_conversions
 
 clean_test_results_pcl_conversions: perception_pcl/pcl_conversions/CMakeFiles/clean_test_results_pcl_conversions
 clean_test_results_pcl_conversions: perception_pcl/pcl_conversions/CMakeFiles/clean_test_results_pcl_conversions.dir/build.make

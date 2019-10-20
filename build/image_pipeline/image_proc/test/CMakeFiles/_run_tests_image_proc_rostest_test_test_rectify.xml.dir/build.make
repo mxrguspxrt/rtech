@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dte/Desktop/rtech/build
 include image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/progress.make
 
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml:
-	cd /home/dte/Desktop/rtech/build/image_pipeline/image_proc/test && ../../../catkin_generated/env_cached.sh /usr/bin/python /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/image_proc/rostest-test_test_rectify.xml "/usr/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/dte/Desktop/rtech/src/image_pipeline/image_proc --package=image_proc --results-filename test_test_rectify.xml --results-base-dir \"/home/dte/Desktop/rtech/build/test_results\" /home/dte/Desktop/rtech/src/image_pipeline/image_proc/test/test_rectify.xml "
+	cd /home/dte/Desktop/rtech/build/image_pipeline/image_proc/test && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /usr/share/catkin/cmake/test/run_tests.py /home/dte/Desktop/rtech/build/test_results/image_proc/rostest-test_test_rectify.xml "/usr/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/dte/Desktop/rtech/src/image_pipeline/image_proc --package=image_proc --results-filename test_test_rectify.xml --results-base-dir \"/home/dte/Desktop/rtech/build/test_results\" /home/dte/Desktop/rtech/src/image_pipeline/image_proc/test/test_rectify.xml "
 
 _run_tests_image_proc_rostest_test_test_rectify.xml: image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml
 _run_tests_image_proc_rostest_test_test_rectify.xml: image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make
