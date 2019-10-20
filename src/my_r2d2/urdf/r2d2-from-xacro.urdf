@@ -423,5 +423,12 @@
     <child link="lens"/>
     <origin rpy="0 1.57075 0" xyz="0 0 0"/>
   </joint>
+  <link name="eye">
+  </link>
+  <joint name="eye_to_lens" type="fixed">
+    <parent link="lens"/>
+    <child link="eye"/>
+    <origin rpy="0 1.57075 0" xyz="0 0 0"/>
+  </joint>
 </robot>
 

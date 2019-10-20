@@ -181,7 +181,6 @@ Created base_footprint and re-positioned.
 
 # 4
 
-I will be using modified steps, because I have newest version of Ubuntu and ROS + I will use video, instead of camera, because I have no USB camera and it is after 23:00 in Sunday evening (too late to buy one).
 
 ```
 
@@ -213,3 +212,6 @@ https://github.com/ros-perception/ar_track_alvar
 
 
 ```
+
+# 5
+

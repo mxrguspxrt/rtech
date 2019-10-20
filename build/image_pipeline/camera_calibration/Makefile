@@ -80,28 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -123,6 +101,28 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -168,36 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
-.PHONY : image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
-
-# Convenience name for target.
-camera_calibration.tar.gz: image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
-
-.PHONY : camera_calibration.tar.gz
-
-# fast build rule for target.
-camera_calibration.tar.gz/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
-.PHONY : camera_calibration.tar.gz/fast
-
-# Convenience name for target.
-image_pipeline/camera_calibration/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : image_pipeline/camera_calibration/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: image_pipeline/camera_calibration/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_catkin_empty_exported_target.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
-# Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
@@ -212,6 +182,21 @@ multi_board_calibration.tar.gz/fast:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
 .PHONY : multi_board_calibration.tar.gz/fast
 
+# Convenience name for target.
+image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
+.PHONY : image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
+
+# Convenience name for target.
+camera_calibration.tar.gz: image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
+
+.PHONY : camera_calibration.tar.gz
+
+# fast build rule for target.
+camera_calibration.tar.gz/fast:
+	cd /home/dte/Desktop/rtech/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
+.PHONY : camera_calibration.tar.gz/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,13 +205,12 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... multi_board_calibration.tar.gz"
 	@echo "... rebuild_cache"
 	@echo "... camera_calibration.tar.gz"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... _catkin_empty_exported_target"
-	@echo "... multi_board_calibration.tar.gz"
 	@echo "... test"
 .PHONY : help
 

@@ -4,6 +4,7 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
+subdirs("ar_track_alvar/ar_track_alvar_msgs")
 subdirs("beginner_tutorials")
 subdirs("image_pipeline/camera_calibration")
 subdirs("eigen_conversions")
@@ -17,11 +18,15 @@ subdirs("joint_state_publisher/joint_state_publisher")
 subdirs("kdl_conversions")
 subdirs("media_export")
 subdirs("my_r2d2")
+subdirs("perception_pcl/pcl_conversions")
+subdirs("perception_pcl/perception_pcl")
 subdirs("roslint")
 subdirs("rqt_console")
 subdirs("rqt_py_common")
 subdirs("image_pipeline/stereo_image_proc")
 subdirs("tf")
+subdirs("perception_pcl/pcl_ros")
+subdirs("ar_track_alvar/ar_track_alvar")
 subdirs("r2d2_navigator")
 subdirs("robot_state_publisher")
 subdirs("tf_conversions")

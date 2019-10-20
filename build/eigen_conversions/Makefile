@@ -80,16 +80,16 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
+# Special rule for the target test
+test/fast: test
 
-.PHONY : rebuild_cache/fast
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -101,6 +101,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target install
 install: preinstall
@@ -123,17 +134,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
 eigen_conversions/CMakeFiles/eigen_conversions.dir/rule:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 eigen_conversions/CMakeFiles/eigen_conversions.dir/rule
 .PHONY : eigen_conversions/CMakeFiles/eigen_conversions.dir/rule
@@ -196,36 +181,6 @@ eigen_conversions: eigen_conversions/CMakeFiles/eigen_conversions.dir/rule
 eigen_conversions/fast:
 	cd /home/dte/Desktop/rtech/build && $(MAKE) -f eigen_conversions/CMakeFiles/eigen_conversions.dir/build.make eigen_conversions/CMakeFiles/eigen_conversions.dir/build
 .PHONY : eigen_conversions/fast
-
-# Convenience name for target.
-eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f CMakeFiles/Makefile2 eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/dte/Desktop/rtech/build && $(MAKE) -f eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make eigen_conversions/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
 
 src/eigen_kdl.o: src/eigen_kdl.cpp.o
 
@@ -289,15 +244,12 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... test"
 	@echo "... eigen_conversions"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... test"
 	@echo "... src/eigen_kdl.o"
 	@echo "... src/eigen_kdl.i"
 	@echo "... src/eigen_kdl.s"
